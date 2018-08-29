@@ -10,6 +10,7 @@ The busbar is composed of 2 line departures connecting neighbor substations, 2 M
 The waveform recorder functionality has been integrated in the PMU developed in EPFL-DESL laboratory.
 The hardware platform is based on the National Instruments [compactRIO 9068](http://www.ni.com/pdf/manuals/376007a_02.pdf), an embedded industrial controller with a dual-core ARM Cortex-A9 processor and equipped with a customized Linux-RT OS, a user-programmable Field Programmable Gate Array (FPGA) Artix-7 equipped with a 40 MHz free-running clock and reconfigurable IO modules. 
 The device has been equipped with:
+
 * A stationary GPS unit [NI-9467](http://www.ni.com/datasheet/pdf/en/ds-537) for the synchronization to UTC-time, accurate to within +- 100 ns. The GPS antenna is mounted on the rooftop of DESL laboratory with a full-sky visibility and is coupled to the module via a 30-meters RG-213 shielded cable;
 * Two analog input modules [NI-9215](http://www.ni.com/pdf/manuals/373779a_02.pdf) characterized by an input range of +- 10 V and a sampling frequency of 50 kHz.
 
@@ -23,16 +24,20 @@ The power injection of the BESS is controlled by requesting active and reactive 
 ## Data
 The waveforms enclosed to this report have been obtained by, in rapid sequence, (i) starting the recording and (ii) imposing a step in the active power injection of the BESS.
 The data cover 5 events:
+
 * BESS idle;
 * step in BESS power from 0 to 500 kW;
 * step in BESS power from 0 to -500 kW;
 * step in BESS power from 0 to 200 kW;
 * step in BESS power from 0 to -200 kW;
 * step in BESS power from -500 to 500 kW.
+
 Note that we apply an \textit{active sign convention}. That is, a positive BESS active power corresponds to the BESS discharging/injecting power into the grid. For each event, the following quantities are reported:
+
 * three-phase voltages at the busbar (V1, V2, V3);
 * three-phase line currents absorbed by the BESS transformer (ia1, ia2, ia3);
 * 2 x three-phase line currents absorbed by two transformers (ib1, ib2, ib3 and ic1, ic2, ic3).
+
 Such quantities are stored with 20~$\mu s$ sampling time and for a duration of 2 seconds.
 The measures should be scaled with an amplification gain of 3500 for the voltage, 3.1 for the current absorbed by the BESS and 1 for those by the two transformers. 
 ### Data format
