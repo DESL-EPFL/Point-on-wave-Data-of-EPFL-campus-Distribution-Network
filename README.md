@@ -5,7 +5,7 @@ Point-on-wave data collected on the 20 kV network of EPFL-campus.
 ### The electric network
 The data refer to the medium voltage network illustrated in the following figure, representing a 20 kV substation of EPFL campus coupled with a battery energy storage system (BESS).
 
-![](network.png)
+![](figure_network.png)
 
 The busbar is composed of 2 line departures connecting neighbor substations, 2 MV/LV 630 kVA transformers supplying electricity to office buildings, and one cable connecting the BESS. 
 
@@ -42,7 +42,13 @@ Such quantities are stored with 20 μs sampling time and for a duration of 2 sec
 The measures should be scaled with an amplification gain of 3500 for the voltage, 3.1 for the current absorbed by the BESS and 1 for those by the two transformers. 
 
 ### Data format
-The file "recorderWaveforms.mat" contains 5 structure variables, each containing data from one of the events listed above. 
+5 Matlab structure variables are provided, each containing data from one of the considered events:
+* BESS_idle.mat;
+* BESS_0_to_p500.mat;
+* BESS_0_to_m500.mat;
+* BESS_0_to_p200.mat;
+* BESS_0_to_m200.mat;
+* BESS_m500_to_p500.mat. 
 Each structure has 12 fields, corresponding to the 12 quantities listed above. Each field is a column array containing the respective data. The names of the structures and fields are self-explanatory.
 
 ## References
@@ -51,13 +57,13 @@ Each structure has 12 fields, corresponding to the 12 quantities listed above. E
 * M. Pignati et al., "Real-time state estimation of the EPFL-campus medium-voltage grid by using PMUs," 2015 IEEE Power \& Energy Society Innovative Smart Grid Technologies Conference (ISGT), Washington, DC, 2015, pp. 1-5. Available [here](https://www.researchgate.net/publication/279545439_Real-time_state_estimation_of_the_EPFL-campus_medium-voltage_grid_by_using_PMUs)
 
 ## Figures
-![](BESS_idle.png)
-![](BESS_0_to_p500.png)
-![](BESS_0_to_m500.png)
-![](BESS_0_to_p200.png)
-![](BESS_0_to_m200.png)
-![](BESS_0_to_p500.png)
-![](BESS_m500_to_p500.png)
+![](figure_BESS_idle.png)
+![](figure_BESS_0_to_p500.png)
+![](figure_BESS_0_to_m500.png)
+![](figure_BESS_0_to_p200.png)
+![](figure_BESS_0_to_m200.png)
+![](figure_BESS_0_to_p500.png)
+![](figure_BESS_m500_to_p500.png)
 
 
 
