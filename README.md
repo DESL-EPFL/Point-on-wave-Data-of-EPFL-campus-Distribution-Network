@@ -5,7 +5,7 @@ Point-on-wave data collected on the 20 kV network of EPFL-campus.
 ### The electric network
 The data refer to the medium voltage network illustrated in the following figure, representing a 20 kV substation of EPFL campus coupled with a battery energy storage system (BESS).
 
-<img src="https://github.com/DESL-EPFL/Point-on-wave-Data-of-EPFL-campus-Distribution-Network/blob/master/figure_network.png" width="70%">
+<img src="https://github.com/DESL-EPFL/Point-on-wave-Data-of-EPFL-campus-Distribution-Network/blob/master/figure_network.png" width="70%" align="center">
 
 The busbar is composed of 2 line departures connecting neighbor substations, 2 MV/LV 630 kVA transformers supplying electricity to office buildings, and one cable connecting the BESS. 
 
@@ -57,13 +57,13 @@ Each structure has 12 fields, corresponding to the 12 quantities listed above. E
 * M. Pignati et al., "Real-time state estimation of the EPFL-campus medium-voltage grid by using PMUs," 2015 IEEE Power \& Energy Society Innovative Smart Grid Technologies Conference (ISGT), Washington, DC, 2015, pp. 1-5. Available [here](https://www.researchgate.net/publication/279545439_Real-time_state_estimation_of_the_EPFL-campus_medium-voltage_grid_by_using_PMUs)
 
 ## Figures
-<img src="https://github.com/DESL-EPFL/Point-on-wave-Data-of-EPFL-campus-Distribution-Network/blob/master/_BESS_idle.png" width="50%">
-<img src="https://github.com/DESL-EPFL/Point-on-wave-Data-of-EPFL-campus-Distribution-Network/blob/master/figure_BESS_0_to_p500.png" width="50%">
-<img src="https://github.com/DESL-EPFL/Point-on-wave-Data-of-EPFL-campus-Distribution-Network/blob/master/figure_BESS_0_to_m500.png" width="50%">
-<img src="https://github.com/DESL-EPFL/Point-on-wave-Data-of-EPFL-campus-Distribution-Network/blob/master/figure_BESS_0_to_p200.png" width="50%">
-<img src="https://github.com/DESL-EPFL/Point-on-wave-Data-of-EPFL-campus-Distribution-Network/blob/master/figure_BESS_0_to_m200.png" width="50%">
-<img src="https://github.com/DESL-EPFL/Point-on-wave-Data-of-EPFL-campus-Distribution-Network/blob/master/figure_BESS_0_to_p500.png" width="50%">
-<img src="https://github.com/DESL-EPFL/Point-on-wave-Data-of-EPFL-campus-Distribution-Network/blob/master/figure_BESS_m500_to_p500.png" width="50%">
+<img src="https://github.com/DESL-EPFL/Point-on-wave-Data-of-EPFL-campus-Distribution-Network/blob/master/figure_BESS_idle.png" width="50%" align="center">
+<img src="https://github.com/DESL-EPFL/Point-on-wave-Data-of-EPFL-campus-Distribution-Network/blob/master/figure_BESS_0_to_p500.png" width="50%" align="center">
+<img src="https://github.com/DESL-EPFL/Point-on-wave-Data-of-EPFL-campus-Distribution-Network/blob/master/figure_BESS_0_to_m500.png" width="50%" align="center">
+<img src="https://github.com/DESL-EPFL/Point-on-wave-Data-of-EPFL-campus-Distribution-Network/blob/master/figure_BESS_0_to_p200.png" width="50%" align="center">
+<img src="https://github.com/DESL-EPFL/Point-on-wave-Data-of-EPFL-campus-Distribution-Network/blob/master/figure_BESS_0_to_m200.png" width="50%" align="center">
+<img src="https://github.com/DESL-EPFL/Point-on-wave-Data-of-EPFL-campus-Distribution-Network/blob/master/figure_BESS_0_to_p500.png" width="50%" align="center">
+<img src="https://github.com/DESL-EPFL/Point-on-wave-Data-of-EPFL-campus-Distribution-Network/blob/master/figure_BESS_m500_to_p500.png" width="50%" align="center">
 
 
 
