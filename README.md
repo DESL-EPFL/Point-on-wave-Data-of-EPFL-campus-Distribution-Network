@@ -52,9 +52,7 @@ Each structure has 12 fields, corresponding to the 12 quantities listed above. E
 
 ## Figures
 ![](BESS_idle.png)
-![](BESS_0_to_p500.png)
-![](BESS_0_to_p200.png)
-![](BESS_m500_to_p500.png)
+
 
 
 
