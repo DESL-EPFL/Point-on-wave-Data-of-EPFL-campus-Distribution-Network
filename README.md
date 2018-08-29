@@ -8,7 +8,7 @@ The busbar is composed of 2 line departures connecting neighbor substations, 2 M
 
 ### The sensing infrastructure
 The waveform recorder functionality has been integrated in the PMU developed in EPFL-DESL laboratory.
-The hardware platform is based on the National Instruments compactRIO (cRIO) 9068, an embedded industrial controller with a dual-core ARM Cortex-A9 processor and equipped with a customized Linux-RT OS, a user-programmable Field Programmable Gate Array (FPGA) Artix-7 equipped with a 40 MHz free-running clock and reconfigurable IO modules. 
+The hardware platform is based on the National Instruments [compactRIO 9068](http://www.ni.com/pdf/manuals/376007a_02.pdf), an embedded industrial controller with a dual-core ARM Cortex-A9 processor and equipped with a customized Linux-RT OS, a user-programmable Field Programmable Gate Array (FPGA) Artix-7 equipped with a 40 MHz free-running clock and reconfigurable IO modules. 
 The cRIO has been equipped with:
 * A stationary GPS unit [NI-9467](http://www.ni.com/datasheet/pdf/en/ds-537) for the synchronization to UTC-time, accurate to within $\pm$ 100 ns. The GPS antenna is mounted on the rooftop of DESL laboratory with a full-sky visibility and is coupled to the module via a 30-meters RG-213 shielded cable;
 * Two analog input modules [NI-9215](http://www.ni.com/pdf/manuals/373779a_02.pdf) characterized by an input range of $\pm$ 10 V and a sampling frequency of 50 kHz.
