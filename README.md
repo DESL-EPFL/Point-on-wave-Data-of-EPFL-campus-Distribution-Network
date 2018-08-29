@@ -32,8 +32,8 @@ The data cover 5 events:
 
 Note that we apply an active sign convention. That is, a positive BESS active power corresponds to the BESS discharging/injecting power into the grid. For each event, the following quantities are reported:
 * three-phase voltages at the busbar (V1, V2, V3);
-* three-phase line currents absorbed by the BESS transformer (ia1, ia2, ia3);
-* 2 x three-phase line currents absorbed by two transformers (ib1, ib2, ib3 and ic1, ic2, ic3).
+* 2 x three-phase line currents absorbed by two transformers (ia1, ia2, ia3 and ib1, ib2, ib3).
+* three-phase line currents absorbed by the BESS transformer (ic1, ic2, ic3);
 
 Such quantities are stored with 20 μs sampling time and for a duration of 2 seconds.
 The measures should be scaled with an amplification gain of 3500 for the voltage, 3.1 for the current absorbed by the BESS and 1 for those by the two transformers. 
